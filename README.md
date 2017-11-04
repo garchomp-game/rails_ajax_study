@@ -17,6 +17,9 @@ resources :hoge
 とすることでこれでRESTfulなリソースの振り分けができます。
 
 内容{
+    
+    振り分けの内容
+
     GET	  
     /photos  
     photos#index  
@@ -46,7 +49,7 @@ resources :hoge
     /photos/:id	    
     photos#update	 
     特定の写真を更新する  
-    
+
     DELETE	 
     /photos/:id	   
     photos#destroy 	
