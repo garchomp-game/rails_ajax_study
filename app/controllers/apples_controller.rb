@@ -1,6 +1,6 @@
 class ApplesController < ApplicationController
   def index
-  # @apples = Apple.all
+    @apples = Apple.all
   end
 
   def new
